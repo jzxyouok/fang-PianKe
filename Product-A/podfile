@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+target ‘Product- A’ do
+pod 'AFNetworking', '~> 3.1.0'
+pod 'SDWebImage', '~> 3.8.1'
+pod 'MJRefresh', '~> 3.1.6'
+pod 'FMDB', '~> 2.6.2'
+pod 'ShareSDK3'
+pod 'MOBFoundation'
+pod 'ShareSDK3/ShareSDKUI'
+pod 'ShareSDK3/ShareSDKPlatforms/QQ'
+pod 'ShareSDK3/ShareSDKPlatforms/SinaWeibo'
+pod 'ShareSDK3/ShareSDKPlatforms/WeChat'
+end

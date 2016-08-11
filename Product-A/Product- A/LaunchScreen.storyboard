@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="U8i-Jd-ePU">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="7r9-IT-XvY">
+            <objects>
+                <viewController id="U8i-Jd-ePU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FFT-Ny-sOC"/>
+                        <viewControllerLayoutGuide type="bottom" id="FDv-4e-Rtg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sF3-aa-opK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="9RR-dd-Ra5">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FDv-4e-Rtg" firstAttribute="top" secondItem="9RR-dd-Ra5" secondAttribute="bottom" id="3jV-ff-hhF"/>
+                            <constraint firstItem="9RR-dd-Ra5" firstAttribute="top" secondItem="sF3-aa-opK" secondAttribute="top" id="BVO-cB-xYj"/>
+                            <constraint firstAttribute="trailing" secondItem="9RR-dd-Ra5" secondAttribute="trailing" id="XKV-2r-uOu"/>
+                            <constraint firstItem="9RR-dd-Ra5" firstAttribute="leading" secondItem="sF3-aa-opK" secondAttribute="leading" id="uoF-ym-Bn7"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MQ7-LU-z1B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="406.5" y="516.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchImage.png" width="320" height="480"/>
+    </resources>
+</document>

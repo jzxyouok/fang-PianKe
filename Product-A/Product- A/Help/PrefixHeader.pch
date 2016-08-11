@@ -1,0 +1,58 @@
+//
+//  PrefixHeader.pch
+//  Product- A
+//
+//  Created by lanou on 16/6/24.
+//  Copyright © 2016年 lanou. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "UIView+TWFrame.h"
+#import "RequestManager.h"
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "CarouselView.h"
+#import "AutoAdjustHeight.h"
+#import "MJRefresh.h"
+#import "MyPlayerManager.h"
+#import "FMDB.h"
+#import "UserInfoManager.h"
+
+
+
+
+#define kLoginUrl  @"http://api2.pianke.me/user/login" //登录接口的地址
+#define kRegistUrl @"http://api2.pianke.me/user/reg"   //注册接口的地址
+
+#define kMySqliteName @"良辰美景.sqlite"
+#define kDownloadTable @"叶良辰"
+
+#define KNaviH 49
+#define PKCOLOR(R,G,B) [UIColor colorWithRed:(R)/255.0 green:(G)/255.0 blue:(B)/255.0 alpha:1]
+#define kMoveDistance (kScreenWidth/5.0)
+
+#define kURL1 @"http://api2.pianke.me/ting/radio"
+#define kURL2 @"http://api2.pianke.me/ting/radio_list"
+#define kRadioDetailList @"http://api2.pianke.me/ting/radio_detail"
+#define kRadioDetailListMore @"http://api2.pianke.me/ting/radio_detail_list"
+
+#define kReadList @"http://api2.pianke.me/read/columns"
+#define kReadCollection @"http://api2.pianke.me/read/columns_detail"
+#define kReadDetail @"http://api2.pianke.me/article/info"
+#define kComment @"http://api2.pianke.me/comment/get"
+#define kAddComment @"http://api2.pianke.me/comment/add"
+#define kDelete @"http://api2.pianke.me/comment/del"
+
+#define kProduct @"http://api2.pianke.me/pub/shop"
+#define kProductsDetail @"http://api2.pianke.me/group/posts_info"
+
+#define kTopic @"http://api2.pianke.me/group/posts_hotlist"
+#define kTopicDetail @"http://api2.pianke.me/group/posts_info"
+
+#endif /* PrefixHeader_pch */
